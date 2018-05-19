@@ -1,91 +1,121 @@
 # PopSport
-运动类app
+智能运动终端(第五届雏鹰计划项目),Android客户端。
 
-## 前言
-本项目为运动类app，功能包括计步，运动轨迹记录，社区，天气，个人信息等。
+## 1.概要
 
-## 一些截图
+### 1.1 项目介绍
 
-![登录.png](http://upload-images.jianshu.io/upload_images/3213538-cc1f40e01663575b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
--------------------------------
+随着人们生活水平的逐渐提高，越来越多的人加入健身活动中，本项目旨在将运动健身数据电子化，同时提供特色网约跑步的功能，激发人们运动的兴趣。
 
-![注册.png](http://upload-images.jianshu.io/upload_images/3213538-3c985717ad6fbfe0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
--------------------------------
-![主界面1.png](http://upload-images.jianshu.io/upload_images/3213538-3ad70eb6a23cb695.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-========================
-![主界面2.png](http://upload-images.jianshu.io/upload_images/3213538-970a7a012d3759ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+- 项目背景：越来越多的人加入到跑步健身中
+- 针对对象：健身人群
+- 项目目的：健身数据电子化；激发人们运动兴趣。
+- 项目组成：服务器+Android客户端
+- 职责担任：本项目中担任Android开方成员
 
--------------------------------
-![天气.png](http://upload-images.jianshu.io/upload_images/3213538-a9bdf3021dc615a7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+### 1.2 客户端功能介绍
 
---------------------------------
-           
-![运动主界面.png](http://upload-images.jianshu.io/upload_images/3213538-b8f2a2d269beefe5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
------------------------------
-![历史.png](http://upload-images.jianshu.io/upload_images/3213538-ba3876c7616197fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
------------------------------------
+1. 登陆注册
+2. 天气查询
+3. 运动中心
+   - 历史走路步数图表化
+   - 历史跑步数据图表化
+   - 历史跑步轨迹记录记录
+   - 开启跑步轨迹与数据记录
+4. 跑房功能
+   - 建立跑房：可选时间型或者距离性
+   - 查看当前在线跑房
+   - 加入/退出跑房
+   - 查看当前跑房人员加入情况
+   - 查看他人信息
+5. 社区话题功能
+   - 查看社区话题
+   - 发表话题，支持emoij表情和图片
+   - 点赞/评论
+   - 查看他人信息
+6. 个人中心
+   - 查看历史走路总步数
+   - 查看历史跑步总公里数
+   - 查看已获取成就
+   - 查看已加入跑房
+   - 查看已发表话题
+   - 查看跑步达人排行榜
+   - 查看今日任务
+   - 修改个人信息：头像，昵称，密码等。
 
-![跑房.png](http://upload-images.jianshu.io/upload_images/3213538-33e1c4fef3038a2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-----------------------------
+## 2. 功能展示
 
-![创建跑房.png](http://upload-images.jianshu.io/upload_images/3213538-a1ff6e8ce6c91af6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
------------------------------
+### 登陆&注册
 
-![社区.png](http://upload-images.jianshu.io/upload_images/3213538-c087bf792cc297ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-----------------------------
+<img src="http://upload-images.jianshu.io/upload_images/3213538-cc1f40e01663575b.png?imageMogr2/auto-orient/strip%7CimageView2" title="登录" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-3c985717ad6fbfe0.png?imageMogr2/auto-orient/strip%7CimageView2" title="注册" width="250px" >
 
-![发表文章.png](http://upload-images.jianshu.io/upload_images/3213538-8c63070649c471c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-------------------------------
-![个人信息_成就.png](http://upload-images.jianshu.io/upload_images/3213538-f486178be62d5f81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-------------------------------
+### 运动中心&跑步记录
 
-![个人信息_话题.png](http://upload-images.jianshu.io/upload_images/3213538-8d453e6d641287ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+<img src="http://upload-images.jianshu.io/upload_images/3213538-3ad70eb6a23cb695.png?imageMogr2/auto-orient/strip%7CimageView2" title="主界面1" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-970a7a012d3759ac.png?imageMogr2/auto-orient/strip%7CimageView2" title="主界面2" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-b8f2a2d269beefe5.png?imageMogr2/auto-orient/strip%7CimageView2" title="运动主界面" width="250px" >
 
------------------------------
+### 天气查看&运动历史&轨迹回放
 
-![个人设置.png](http://upload-images.jianshu.io/upload_images/3213538-6b073adb7f10ce03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-
--------------------------------
-
-![排名.png](http://upload-images.jianshu.io/upload_images/3213538-078ff1b835838a31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-------------------------------
-
-![搜索好友.png](http://upload-images.jianshu.io/upload_images/3213538-ac1b91de7814e48c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-
-
-------------------------------------
-![任务表.png](http://upload-images.jianshu.io/upload_images/3213538-bd0da4cdecd87846.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-
-----------------------------
-![轨迹.png](http://upload-images.jianshu.io/upload_images/3213538-030b4f5d2f909ab4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
-
-
-## 说明
-- 整个项目中的接口，不长期可用
-- 跑房的界面仿照柠檬约跑
-- 计步功能共采用两种方式，一是采用计步传感器，二是加速度传感器。
-- 跑步采用的是高德地图的sdk
+<img src="http://upload-images.jianshu.io/upload_images/3213538-a9bdf3021dc615a7.png?imageMogr2/auto-orient/strip%7CimageView2" title="天气" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-ba3876c7616197fe.png?imageMogr2/auto-orient/strip%7CimageView2" title="历史" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-030b4f5d2f909ab4.png?imageMogr2/auto-orient/strip%7CimageView2" title="轨迹" width="250px" >
 
 
 
+### 跑房
 
+<img src="http://upload-images.jianshu.io/upload_images/3213538-33e1c4fef3038a2d.png?imageMogr2/auto-orient/strip%7CimageView2" title="跑房主页" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-a1ff6e8ce6c91af6.png?imageMogr2/auto-orient/strip%7CimageView2" title="创建跑房" width="250px" ><img src="https://upload-images.jianshu.io/upload_images/3213538-f776d30e252beaa4.png?imageMogr2/auto-orient/strip%7CimageView2" title="跑房信息" width="250px" >
 
+### 社区
 
+<img src="http://upload-images.jianshu.io/upload_images/3213538-c087bf792cc297ca.png?imageMogr2/auto-orient/strip%7CimageView2" title="社区" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-8c63070649c471c2.png?imageMogr2/auto-orient/strip%7CimageView2" title="发表文章" width="250px" >
 
+### 个人信息
 
+<img src="http://upload-images.jianshu.io/upload_images/3213538-f486178be62d5f81.png?imageMogr2/auto-orient/strip%7CimageView2" title="成就" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-8d453e6d641287ea.png?imageMogr2/auto-orient/strip%7CimageView2" title="话题" width="250px" ><img src="https://upload-images.jianshu.io/upload_images/3213538-bd4aef49a9e28cc7.png?imageMogr2/auto-orient/strip%7CimageView2" title="加入跑房" width="250px" >
 
+<img src="http://upload-images.jianshu.io/upload_images/3213538-6b073adb7f10ce03.png?imageMogr2/auto-orient/strip%7CimageView2" title="设置" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-078ff1b835838a31.png?imageMogr2/auto-orient/strip%7CimageView2" title="排名" width="250px" ><img src="http://upload-images.jianshu.io/upload_images/3213538-ac1b91de7814e48c.png?imageMogr2/auto-orient/strip%7CimageView2" title="搜索" width="250px" >
 
+<img src="http://upload-images.jianshu.io/upload_images/3213538-bd0da4cdecd87846.png?imageMogr2/auto-orient/strip%7CimageView2" title="任务表" width="250px" >
 
+## 3 开发环境及技术支持
 
+### 3.1  开发环境及运行平台
 
+#### 3.1.1 开发环境
 
+- Android Studio 2.2.3
+- JDK 1.8,java语言开发
 
+#### 3.1.2 运行环境
 
+- Android平台系列手机
+- minSDK>=15
 
+### 3.2 技术支持
 
+1. 界面设计
+   - 遵从Google Material Design设计。
+   - 参考网站：
+     - [iconfont](http://iconfont.cn/)
+     - [materialpalette](https://www.materialpalette.com/icons)
+     - [dribbble](https://dribbble.com/)
+     - [uplabs](https://www.uplabs.com/android)
+     - 柠檬约跑
 
+2. 网络数据交互
+   - OkHttp3：网络请求的优秀开源框架
+   - Retrofit2+RxJava：简化网络请求API与主子线程调度
 
+3. 本地数据存储
+   - SharedPreference：Android 自带简单本地存储API。
+   - GreenDao：轻量高效的数据库
 
+4. 代码解耦
+   - MVP设计模式：业务分为3个层次，M-Model，V-View，P-presnter
 
+5. 计步算法
 
+   综合使用计步传感器和加速度传感器。如何实现可见[我的博文](https://www.jianshu.com/p/7771f56b4c9d)。
+
+6. 数据可视化
+
+   [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart),强烈推荐，简单易用美观。
 
