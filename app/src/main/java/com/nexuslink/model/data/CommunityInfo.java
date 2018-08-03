@@ -37,7 +37,7 @@ public class CommunityInfo implements Parcelable {
         /**
          * articleId : 13
          * userId : 15
-         * userBean : {"uid":15,"uName":"张兴锐","uGender":"M","uImg":"user15.jpg","uHeight":0,"uWeight":0,"uFansnum":0,"uExp":0,"uHistoryStep":0,"uHistoryMileage":0,"uAchievements":null}
+         * userBean : {"uid":15,"uName":"Raven","uGender":"M","uImg":"user15.jpg","uHeight":0,"uWeight":0,"uFansnum":0,"uExp":0,"uHistoryStep":0,"uHistoryMileage":0,"uAchievements":null}
          * text : 继续
          * images : []
          * commentNum : 3

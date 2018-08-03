@@ -11,7 +11,7 @@ public class CreateRunHouseResult {
     /**
      * code : 200
      * rId : 2
-     * users : [{"uid":15,"uName":"张兴锐","uGender":"M","uImg":"user15.jpeg","uHeight":174,"uWeight":60,"uFansnum":1,"uExp":0,"uHistoryStep":0,"uHistoryMileage":0,"uAchievements":null}]
+     * users : [{"uid":15,"uName":"Raven","uGender":"M","uImg":"user15.jpeg","uHeight":174,"uWeight":60,"uFansnum":1,"uExp":0,"uHistoryStep":0,"uHistoryMileage":0,"uAchievements":null}]
      */
 
     private int code;

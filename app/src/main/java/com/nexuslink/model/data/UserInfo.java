@@ -10,7 +10,7 @@ public class UserInfo {
 
     /**
      * code : 200
-     * user : {"uid":15,"uName":"张兴锐","uGender":"M","uImg":"user15.jpeg","uHeight":174,"uWeight":60,"uFansnum":3,"uExp":0,"uHistoryStep":173258,"uHistoryMileage":754,"uAchievements":[false,false,false,false,false,false,false,false]}
+     * user : {"uid":15,"uName":"Raven","uGender":"M","uImg":"user15.jpeg","uHeight":174,"uWeight":60,"uFansnum":3,"uExp":0,"uHistoryStep":173258,"uHistoryMileage":754,"uAchievements":[false,false,false,false,false,false,false,false]}
      */
 
     private int code;
@@ -52,7 +52,7 @@ public class UserInfo {
 
         /**
          * uid : 15
-         * uName : 张兴锐
+         * uName : Raven
          * uGender : M
          * uImg : user15.jpeg
          * uHeight : 174

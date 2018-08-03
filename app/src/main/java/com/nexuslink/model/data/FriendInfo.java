@@ -39,7 +39,7 @@ public class FriendInfo {
     public static class FriendBean {
         /**
          * uid : 15
-         * uName : 张兴锐
+         * uName : Raven
          * uGender : M
          * uImg : user15.jpeg
          * uHeight : 174
